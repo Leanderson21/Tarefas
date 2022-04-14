@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app >
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>TarefaServelet</servlet-name>
+  	<display-name>TarefaServelet</display-name>
+  	<description></description>
+  	<servlet-class>br.com.tarefas.servelet.TarefaServelet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RemoverDespesa</servlet-name>
+  	<display-name>RemoverDespesa</display-name>
+  	<description></description>
+  	<servlet-class>br.com.tarefas.servelet.RemoverDespesa</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RemoverTarefa</servlet-name>
+  	<display-name>RemoverTarefa</display-name>
+  	<description></description>
+  	<servlet-class>br.com.tarefas.servelet.RemoverTarefa</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ListarTarefas</servlet-name>
+  	<display-name>ListarTarefas</display-name>
+  	<description></description>
+  	<servlet-class>br.com.tarefas.servelet.ListarTarefas</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TarefaServelet</servlet-name>
+  	<url-pattern>/TarefaServelet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RemoverDespesa</servlet-name>
+  	<url-pattern>/RemoverDespesa</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RemoverTarefa</servlet-name>
+  	<url-pattern>/RemoverTarefa</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListarTarefas</servlet-name>
+  	<url-pattern>/ListarTarefas</url-pattern>
+  </servlet-mapping>
+</web-app>
